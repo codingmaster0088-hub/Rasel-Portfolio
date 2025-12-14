@@ -1,0 +1,47 @@
+{
+    "profile": {
+        "name": "MD. Rasel Hossain",
+        "role": "Senior Aviation Professional & Web Developer",
+        "bio": "Over 13.7 years of experience in Us-Bangla Airlines. Expert in Load Control, Customer Service, and Operations. Transitioning into Full Stack Web Development.",
+        "phone": "01689573225",
+        "email": "radoanrasel112233@gmail.com",
+        "location": "Tongi, Gazipur",
+        "photo": "assets/my-photo.jpg"
+    },
+    "journey": [
+        {
+            "date": "Mar 2014 - Present",
+            "role": "Senior Executive Customer Service",
+            "company": "Us-Bangla Airlines",
+            "desc": "Leading administration and customer support teams. Expert in ticketing and crisis management."
+        },
+        {
+            "date": "Special Qualification",
+            "role": "Licensed Load Controller",
+            "company": "CAAB Authorized",
+            "desc": "Authorized for ATR 600, Boeing 737, Dash 8 Q400, and Airbus A330."
+        },
+        {
+            "date": "Sep 2011 - Feb 2014",
+            "role": "Executive Customer Support",
+            "company": "Saad Musa City Center",
+            "desc": "Managed high volumes of inbound calls and client relationships."
+        }
+    ],
+    "projects": [
+        {
+            "title": "Main Portfolio Hub",
+            "desc": "My central hub for all coding experiments.",
+            "tech": "HTML/CSS",
+            "link": "https://codingmaster0088-hub.github.io",
+            "icon": "fas fa-code"
+        },
+        {
+            "title": "GitHub Repositories",
+            "desc": "Explore my source codes and contributions.",
+            "tech": "Git",
+            "link": "https://github.com/codingmaster0088-hub",
+            "icon": "fab fa-github"
+        }
+    ]
+}
