@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rasel Hossain | Aviation Professional & Web Developer</title>
-    <!-- Font Awesome for Icons -->
+    <title>Rasel Hossain | Aviation & Tech Portfolio</title>
+    <!-- Icons & Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
+    <!-- Navigation (Fixed Top) -->
     <nav class="navbar">
         <div class="logo">Rasel<span>.Dev</span></div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#journey">My Journey</a></li>
-            <li><a href="#experience">Aviation Exp</a></li>
+            <li><a href="#aviation">Aviation Exp</a></li>
             <li><a href="#portfolio">Dev Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -27,201 +26,229 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
+        <div class="container hero-container">
             <div class="hero-text">
-                <h3>Hello, I'm</h3>
+                <span class="greeting">Welcome, I am</span>
                 <h1>MD. Rasel Hossain</h1>
-                <p>I am a <span class="typing-text"></span></p>
-                <p class="bio">With over 13 years of experience in Aviation Operations, Load Control, and Customer Service, combined with a passion for Modern Web Development.</p>
+                <h3 class="typing-container">I am a <span class="typing-text"></span></h3>
+                
+                <p class="bio">
+                    A highly motivated <strong>Aviation Professional</strong> with over 13.7 years of experience in Us-Bangla Airlines. 
+                    Expert in Load Control, Customer Service, and Operations. Currently transitioning into 
+                    <strong>Full Stack Web Development</strong> to merge aviation discipline with digital innovation.
+                </p>
+                
                 <div class="cta-buttons">
-                    <a href="#portfolio" class="btn btn-primary">View Projects</a>
+                    <a href="#portfolio" class="btn btn-primary">See My Work</a>
+                    <!-- সিভি ডাউনলোড লিংক (যদি থাকে) -->
                     <a href="#" class="btn btn-outline">Download CV <i class="fas fa-download"></i></a>
                 </div>
             </div>
-            <div class="hero-img">
-                <!-- আপনার ছবির লিংক এখানে দিন -->
-                <img src="https://scontent.fdac134-1.fna.fbcdn.net/v/t39.30808-6/496177014_9778162245610383_5114034598565026947_n.jpg?stp=dst-jpg_s552x414_tt6&_nc_cat=111&_nc_cb=99be929b-ad57045b&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEdN7tDDQzZeunnocfp6DRFX5h7t5ZlsX1fmHu3lmWxfTaKXUlWpqTEYk6cPC6dWjT_ruYS68Dcrz38QxVKUML7&_nc_ohc=RA4Kfdi-GxIQ7kNvwFuh35O&_nc_oc=Adlgd3JkdSmeu5ZcCEOl-rg0kSHnaeR5fnfxf8BfskyDrEN587YQE27B2F8u4rtMVmw&_nc_zt=23&_nc_ht=scontent.fdac134-1.fna&_nc_gid=iLIFBSatU_O2waHn_J1ZqA&oh=00_AfmruNcmZluw5DgZZlZ6ACCdhje1gw_rB_C_-c8WOCcTpA&oe=6944CB30>
-            </div>
-        </div>
-    </section>
-
-    <!-- Career Stats -->
-    <div class="stats-container">
-        <div class="stat-box">
-            <h3>13.7+</h3>
-            <p>Years Experience</p>
-        </div>
-        <div class="stat-box">
-            <h3>10+</h3>
-            <p>Years at Us-Bangla</p>
-        </div>
-        <div class="stat-box">
-            <h3>Licensed</h3>
-            <p>Load Controller (ATR/Boeing/Airbus)</p>
-        </div>
-    </div>
-
-    <!-- Timeline / Journey Section -->
-    <section id="journey" class="section">
-        <h2 class="section-title">My Professional Journey</h2>
-        <div class="timeline">
             
-            <!-- Timeline Item 1 -->
-            <div class="timeline-item left">
-                <div class="content">
-                    <h3>2014 - Present</h3>
-                    <h4>Senior Executive Customer Service</h4>
-                    <p><strong>Us-Bangla Airlines</strong></p>
-                    <p>Leading administration (4.5 yrs) and customer support (6.2 yrs). Expert in ticketing, crisis management, and team leadership.</p>
-                </div>
-            </div>
-
-            <!-- Timeline Item 2 -->
-            <div class="timeline-item right">
-                <div class="content">
-                    <h3>Specialized Licenses</h3>
-                    <h4>Aircraft Load & Balance</h4>
-                    <p>Authorized Load Controller for ATR 600, Boeing 737, Dash 8 Q400, and Airbus A330. Ensuring safety and operational efficiency.</p>
-                </div>
-            </div>
-
-            <!-- Timeline Item 3 -->
-            <div class="timeline-item left">
-                <div class="content">
-                    <h3>2011 - 2014</h3>
-                    <h4>Executive Customer Support</h4>
-                    <p><strong>Saad Musa City Center</strong></p>
-                    <p>Managed high volumes of inbound calls, sales opportunities, and client relationships.</p>
-                </div>
-            </div>
-
-            <!-- Timeline Item 4 -->
-            <div class="timeline-item right">
-                <div class="content">
-                    <h3>2023 - Present</h3>
-                    <h4>Web Development Journey</h4>
-                    <p>Transitioning into Tech. Learning HTML, CSS, JavaScript, and React to build modern digital solutions.</p>
+            <div class="hero-img-box">
+                <!-- এখানে আপনার লোকাল ছবি ব্যবহার করুন -->
+                <img src="assets/my-photo.jpg" alt="Rasel Hossain" onerror="this.src='https://via.placeholder.com/400x400?text=Upload+Photo'">
+                <div class="exp-badge">
+                    <span>13+</span>
+                    <p>Years Exp.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Aviation Skills & Certifications -->
-    <section id="experience" class="section bg-darker">
-        <h2 class="section-title">Aviation & Technical Skills</h2>
-        <div class="skills-container">
-            <div class="skill-category">
-                <h3><i class="fas fa-plane"></i> Aviation Operations</h3>
-                <div class="badges">
-                    <span class="badge">Load & Trim (CAAB)</span>
-                    <span class="badge">Aviation Security</span>
-                    <span class="badge">Dangerous Goods</span>
-                    <span class="badge">Passenger Facilitation</span>
-                    <span class="badge">GDS Ticketing</span>
-                    <span class="badge">Crisis Management</span>
+    <!-- My Journey (Timeline from CV) -->
+    <section id="journey" class="section">
+        <div class="container">
+            <h2 class="section-title">My Professional Journey</h2>
+            <div class="timeline">
+                
+                <!-- Latest Job -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Mar 2014 - Present (10.7 Years)</span>
+                        <h3>Senior Executive Customer Service</h3>
+                        <h4>Us-Bangla Airlines</h4>
+                        <p><strong>Roles:</strong> Administration (4.5 yrs) & Customer Support (6.2 yrs).</p>
+                        <ul>
+                            <li>Managed ticketing, rebooking, and fare adjustments using Reservation Systems.</li>
+                            <li>Provided exceptional service during check-in, boarding, and special assistance.</li>
+                            <li>Expert in Crisis Management and handling service disruptions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Load Control License -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Special Qualification</span>
+                        <h3>Licensed Load Controller</h3>
+                        <h4>Civil Aviation Authority of Bangladesh (CAAB)</h4>
+                        <p>Authorized Load & Trim officer ensuring safe aircraft airborne and landing operations.</p>
+                        <div class="tags">
+                            <span>ATR 600</span>
+                            <span>Boeing 737</span>
+                            <span>Dash 8 Q400</span>
+                            <span>Airbus A330</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Previous Job -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Sep 2011 - Feb 2014 (2.5 Years)</span>
+                        <h3>Executive Customer Support</h3>
+                        <h4>Saad Musa City Center</h4>
+                        <ul>
+                            <li>Managed high volumes of inbound calls.</li>
+                            <li>Built long-term client relationships.</li>
+                            <li>Consistently met sales and service targets.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Web Dev Entry -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">2023 - Present</span>
+                        <h3>Web Developer (Self-Taught)</h3>
+                        <h4>GitHub Portfolio</h4>
+                        <p>Learning modern web technologies to build interactive applications.</p>
+                        <div class="tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Aviation Experience & Certifications -->
+    <section id="aviation" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Aviation Expertise</h2>
+            <div class="grid-3">
+                <!-- Card 1 -->
+                <div class="info-card">
+                    <i class="fas fa-plane-departure icon"></i>
+                    <h3>Operations</h3>
+                    <p>Load & Balance operations for multiple aircraft types. Ensuring compliance with safety regulations and operational protocols.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="info-card">
+                    <i class="fas fa-user-shield icon"></i>
+                    <h3>Security & Safety</h3>
+                    <p>Certified in <strong>Aviation Security</strong> and handling <strong>Dangerous Goods</strong>. Skilled in passenger facilitation and crisis management.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="info-card">
+                    <i class="fas fa-ticket-alt icon"></i>
+                    <h3>Reservation Systems</h3>
+                    <p>Proficient in airline ticketing, fare calculation, and rebooking rules compliant with travel policies.</p>
                 </div>
             </div>
-            <div class="skill-category">
-                <h3><i class="fas fa-code"></i> Web Development</h3>
-                <div class="badges">
-                    <span class="badge">HTML5</span>
-                    <span class="badge">CSS3</span>
-                    <span class="badge">JavaScript</span>
-                    <span class="badge">Responsive Design</span>
-                    <span class="badge">GitHub</span>
-                    <span class="badge">UI/UX Basics</span>
+            
+            <!-- Education Table Mini -->
+            <div class="education-box">
+                <h3><i class="fas fa-graduation-cap"></i> Academic Background</h3>
+                <div class="edu-row">
+                    <div><strong>Bachelor of Law (LLB)</strong> - City University (CGPA 3.00)</div>
+                    <div>2016</div>
+                </div>
+                <div class="edu-row">
+                    <div><strong>HSC (Arts)</strong> - Debigonj Degree College</div>
+                    <div>2009</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Developer Portfolio Section -->
+    <!-- Developer Portfolio (Clickable) -->
     <section id="portfolio" class="section">
-        <h2 class="section-title">Developer Portfolio</h2>
-        <p style="text-align: center; color: #aaa;">Check out my latest coding projects hosted on GitHub.</p>
-        
-        <div class="portfolio-grid">
-            <!-- Project 1 -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="https://via.placeholder.com/300x200.png?text=Resume+Project" alt="Project 1">
-                </div>
-                <div class="project-info">
-                    <h3>Digital Resume Website</h3>
-                    <p>A responsive portfolio website built with HTML, CSS, and JS.</p>
-                    <div class="tech-stack">
-                        <span>HTML</span><span>CSS</span><span>JS</span>
+        <div class="container">
+            <h2 class="section-title">Developer Portfolio</h2>
+            <p class="subtitle">Click on any project to view the live version.</p>
+            
+            <div class="project-grid">
+                
+                <!-- Main Project Link (Your Root Site) -->
+                <a href="https://codingmaster0088-hub.github.io" target="_blank" class="project-card">
+                    <div class="card-image">
+                        <!-- এখানে একটি স্ক্রিনশট দিতে পারলে ভালো, আপাতত আইকন দিচ্ছি -->
+                        <i class="fas fa-code branch-icon"></i>
                     </div>
-                    <div class="project-links">
-                        <a href="https://codingmaster0088-hub.github.io" target="_blank">Live Demo</a>
-                        <a href="https://github.com/codingmaster0088-hub" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    <div class="card-info">
+                        <h3>Main Portfolio Hub</h3>
+                        <p>My central hub for all coding experiments and projects.</p>
+                        <span class="tech">HTML/CSS</span>
                     </div>
-                </div>
-            </div>
+                </a>
 
-            <!-- Project 2 (Placeholder) -->
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="https://via.placeholder.com/300x200.png?text=Airline+App" alt="Project 2">
-                </div>
-                <div class="project-info">
-                    <h3>Airline Booking UI</h3>
-                    <p>A concept UI for flight booking and seat selection.</p>
-                    <div class="tech-stack">
-                        <span>React</span><span>Tailwind</span>
+                <!-- Demo Project 1 -->
+                <a href="#" class="project-card">
+                    <div class="card-image">
+                        <i class="fas fa-plane branch-icon"></i>
                     </div>
-                    <div class="project-links">
-                        <a href="#">Live Demo</a>
-                        <a href="#">Code</a>
+                    <div class="card-info">
+                        <h3>Airline Ticketing UI</h3>
+                        <p>A concept UI design for flight booking systems.</p>
+                        <span class="tech">React Concept</span>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                </a>
 
-    <!-- Education Section -->
-    <section class="section bg-darker">
-        <h2 class="section-title">Education</h2>
-        <div class="education-card">
-            <i class="fas fa-graduation-cap"></i>
-            <div>
-                <h3>Bachelor of Law (LLB)</h3>
-                <p>City University | Passing Year: 2016</p>
-                <p>CGPA: 3.00</p>
+                <!-- Demo Project 2 -->
+                <a href="https://github.com/codingmaster0088-hub" target="_blank" class="project-card">
+                    <div class="card-image">
+                        <i class="fab fa-github branch-icon"></i>
+                    </div>
+                    <div class="card-info">
+                        <h3>GitHub Repositories</h3>
+                        <p>Explore my source codes and contributions.</p>
+                        <span class="tech">Git</span>
+                    </div>
+                </a>
+
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2 class="section-title">Get In Touch</h2>
-        <div class="contact-container">
-            <div class="contact-info">
-                <div class="info-item">
-                    <i class="fas fa-phone"></i>
-                    <span>+880 1689573225</span>
+    <section id="contact" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-wrapper">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>Call Me</h4>
+                    <p>01689573225</p>
                 </div>
-                <div class="info-item">
+                <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <span>radoanrasel112233@gmail.com</span>
+                    <h4>Email</h4>
+                    <p>radoanrasel112233@gmail.com</p>
                 </div>
-                <div class="info-item">
+                <div class="contact-item">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>H-32/h, United Goli, Collage Gate, Tongi</span>
+                    <h4>Location</h4>
+                    <p>H-32/h, United Goli, Collage Gate, Tongi</p>
                 </div>
             </div>
-            
-            <div class="social-links">
-                <a href="https://github.com/codingmaster0088-hub" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <div class="social-footer">
+                <a href="https://github.com/codingmaster0088-hub"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
             </div>
+            <p class="copyright">© 2024 MD. Rasel Hossain. Built with ❤️.</p>
         </div>
     </section>
-
-    <footer>
-        <p>&copy; 2024 MD. Rasel Hossain. All Rights Reserved.</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>
