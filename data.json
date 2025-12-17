@@ -1,47 +1,115 @@
 {
-    "profile": {
-        "name": "MD. Rasel Hossain",
-        "role": "Senior Aviation Professional & Web Developer",
-        "bio": "Over 13.7 years of experience in Us-Bangla Airlines. Expert in Load Control, Customer Service, and Operations. Transitioning into Full Stack Web Development.",
-        "phone": "01689573225",
-        "email": "radoanrasel112233@gmail.com",
-        "location": "Tongi, Gazipur",
-        "photo": "assets/my-photo.jpg"
-    },
-    "journey": [
-        {
-            "date": "Mar 2014 - Present",
-            "role": "Senior Executive Customer Service",
-            "company": "Us-Bangla Airlines",
-            "desc": "Leading administration and customer support teams. Expert in ticketing and crisis management."
-        },
-        {
-            "date": "Special Qualification",
-            "role": "Licensed Load Controller",
-            "company": "CAAB Authorized",
-            "desc": "Authorized for ATR 600, Boeing 737, Dash 8 Q400, and Airbus A330."
-        },
-        {
-            "date": "Sep 2011 - Feb 2014",
-            "role": "Executive Customer Support",
-            "company": "Saad Musa City Center",
-            "desc": "Managed high volumes of inbound calls and client relationships."
-        }
-    ],
-    "projects": [
-        {
-            "title": "Main Portfolio Hub",
-            "desc": "My central hub for all coding experiments.",
-            "tech": "HTML/CSS",
-            "link": "https://codingmaster0088-hub.github.io",
-            "icon": "fas fa-code"
-        },
-        {
-            "title": "GitHub Repositories",
-            "desc": "Explore my source codes and contributions.",
-            "tech": "Git",
-            "link": "https://github.com/codingmaster0088-hub",
-            "icon": "fab fa-github"
-        }
+  "profile": {
+    "name": "MD. RASEL HOSSAIN",
+    "role": "Senior Executive ।। Load Control Specialist ।। Web Devoloper",
+    "bio": "A dedicated aviation professional with over 11 years of experience in customer service, load and balance control, and airport security operations. Known for delivering seamless passenger experience and ensuring safety compliance.",
+    "phone": "01689-573225",
+    "email": "radoanrasel112233@gmail.com",
+    "location": "Tongi, Gazipur, Bangladesh",
+    "socials": [
+      { "icon": "fab fa-facebook", "link": "https://www.facebook.com/radoanrasel" },
+      { "icon": "fab fa-linkedin", "link": "https://www.linkedin.com/feed" },
+      { "icon": "fab fa-github", "link": "https://github.com/codingmaster0088-hub" }
     ]
+  },
+  "timeline": [
+    {
+      "date": "July 2019 – Present",
+      "title": "Senior Executive, Customer Service",
+      "company": "Us-Bangla Airlines",
+      "desc": "<strong>Key Achievements:</strong><ul style='margin-left:20px;margin-bottom:10px'><li>Managed high-volume check-in, boarding, and special assistance operations.</li><li>Improved passenger experience by resolving complex service issues.</li><li>Coordinated operational responses during delays and disruptions.</li></ul><strong>Responsibilities:</strong><ul style='margin-left:20px'><li>I provide high-quality customer service during check-in, boarding, and special assistance.</li><li>I handle ticketing, rebooking, and fare adjustments in full compliance with airline policies.</li><li>I support passengers with special needs (UM, medical, mobility).</li><li>I ensure strict adherence to airline procedures, safety regulations, and travel documentation.</li><li>During disruptions, I maintain professionalism through clear communication.</li></ul>",
+      "tags": ["Crisis Handling", "Ticketing", "Team Leadership"]
+    },
+    {
+      "date": "Active License Holder",
+      "title": "Licensed Load & Balance Controller",
+      "company": "Civil Aviation Authority (CAAB)",
+      "desc": "<strong>Responsibilities:</strong><ul style='margin-left:20px'><li>Prepared precise aircraft Weight & Balance and load sheets.</li><li>Managed passenger, baggage, and cargo load distribution.</li><li>Issued LIR, NOTOC, and handled LMC changes.</li><li>Coordinated with ramp, cargo, fuel, and cockpit crew.</li><li>Supported on-time aircraft turnaround and departure.</li></ul>",
+      "tags": ["ATR 600", "Boeing 737", "Dash 8 Q400", "Airbus A330"]
+    },
+    {
+      "date": "March 2014 – July 2019",
+      "title": "Security Assistant Supervisor",
+      "company": "Us-Bangla Airlines",
+      "desc": "<strong>Responsibilities:</strong><ul style='margin-left:20px'><li>Supervised airport security operations per ICAO & CAAB regulations.</li><li>Led security staff, shift operations, and performance monitoring.</li><li>Oversaw screening of passengers, baggage, and cargo.</li><li>Managed incidents and coordinated with authorities.</li></ul>",
+      "tags": ["AVSEC", "Screening", "Staff Supervision"]
+    },
+    {
+      "date": "Core Competencies",
+      "title": "Key Skills & Expertise",
+      "company": "Professional Skills",
+      "desc": "<ul style='margin-left:20px'><li>Airline Customer Service</li><li>Ticketing & Reservation Systems (GDS)</li><li>Load & Balance Control (Licensed: ATR 600, B737, Q400, A330)</li><li>Passenger Experience & Special Handling</li><li>Aviation Safety & Security (ICAO/CAAB)</li><li>Flight Operations Coordination</li><li>Conflict Resolution & Crisis Handling</li><li>Communication & Team Leadership</li></ul>",
+      "tags": ["Operations", "Management"]
+    },
+    {
+      "date": "Certifications",
+      "title": "Certifications & Training",
+      "company": "Industry Recognized",
+      "desc": "<ul style='margin-left:20px'><li>Aviation Security (AVSEC)</li><li>Aviation Customer Service</li><li>Load & Balance Control (Licensed Types)</li><li>Passenger Facilitation Training (CAAB)</li><li>Ramp Safety</li><li>Ground Handling Operations</li><li>Dangerous Goods (DGR) Awareness</li><li>Reservation & Ticketing Systems</li></ul>",
+      "tags": ["Certificates", "Training"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Laws (LLB)",
+      "major": "Law",
+      "institute": "City University",
+      "result": "CGPA 3.00",
+      "year": "2016",
+      "duration": "4 Years"
+    },
+    {
+      "degree": "Higher Secondary (HSC)",
+      "major": "Arts",
+      "institute": "Debigonj Degree College",
+      "result": "GPA 3.30",
+      "year": "2009",
+      "duration": "2 Years"
+    },
+    {
+      "degree": "Secondary School (SSC)",
+      "major": "Arts",
+      "institute": "Kalur Hat K.C High School",
+      "result": "GPA 3.81",
+      "year": "2007",
+      "duration": "2 Years"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Flight Data Update",
+      "desc": "Explore my source codes and contributions.",
+      "tech": "Git/GitHub",
+      "link": "https://radoanrasel-usba.github.io/flight-data",
+      "image": "fab fa-github"
+    },
+    {
+      "title": "ULD Management",
+      "desc": "Explore my source codes and contributions.",
+      "tech": "Git/GitHub",
+      "link": "https://radoanrasel-usba.github.io/ULD-MANAGEMENT",
+      "image": "fab fa-github"
+    },
+    {
+      "title": "Aviation Hero",
+      "desc": "Explore my source codes and contributions.",
+      "tech": "Git/GitHub",
+      "link": "https://codingmaster0088-hub.github.io/Aviation-Hero",
+      "image": "fab fa-github"
+    },
+    {
+      "title": "Estimated Zero Fuel Weight Calculator",
+      "desc": "Explore my source codes and contributions.",
+      "tech": "Git/GitHub",
+      "link": "https://codingmaster0088-hub.github.io/EZFW-MAKER",
+      "image": "fab fa-github"
+    },
+    {
+      "title": "Aviation Roster Maker",
+      "desc": "Explore my source codes and contributions.",
+      "tech": "Git/GitHub",
+      "link": "https://codingmaster0088-hub.github.io/Roster-mobile-pc",
+      "image": "fab fa-github"
+    }
+  ]
 }
