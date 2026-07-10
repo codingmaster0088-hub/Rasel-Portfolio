@@ -1,47 +1,173 @@
 {
-    "profile": {
-        "name": "MD. Rasel Hossain",
-        "role": "Senior Aviation Professional & Web Developer",
-        "bio": "Over 13.7 years of experience in Us-Bangla Airlines. Expert in Load Control, Customer Service, and Operations. Transitioning into Full Stack Web Development.",
-        "phone": "01689573225",
-        "email": "radoanrasel112233@gmail.com",
-        "location": "Tongi, Gazipur",
-        "photo": "assets/my-photo.jpg"
-    },
-    "journey": [
-        {
-            "date": "Mar 2014 - Present",
-            "role": "Senior Executive Customer Service",
-            "company": "Us-Bangla Airlines",
-            "desc": "Leading administration and customer support teams. Expert in ticketing and crisis management."
-        },
-        {
-            "date": "Special Qualification",
-            "role": "Licensed Load Controller",
-            "company": "CAAB Authorized",
-            "desc": "Authorized for ATR 600, Boeing 737, Dash 8 Q400, and Airbus A330."
-        },
-        {
-            "date": "Sep 2011 - Feb 2014",
-            "role": "Executive Customer Support",
-            "company": "Saad Musa City Center",
-            "desc": "Managed high volumes of inbound calls and client relationships."
-        }
+  "profile": {
+    "name": "MD. RASEL HOSSAIN",
+    "roles": [
+      "Senior Executive",
+      "Load Control Supervisor",
+      "Acting ULD In-Charge",
+      "Web Developer"
     ],
-    "projects": [
+    "bio": "Aviation professional with more than 12 years of experience in airline operations, customer service, load control, weight & balance management, and ULD operations. Currently serving as Senior Executive at Us-Bangla Airlines while performing dual responsibilities as Load Control Supervisor and Acting ULD In-Charge. Licensed in Aircraft Load & Trim for ATR, B737, Dash-8 and A330. Experienced in web application development, aviation process automation, roster systems, and operational dashboard design.",
+    "phone": "01689-573225",
+    "email": "radoanrasel112233@gmail.com",
+    "location": "Dhaka, Bangladesh",
+    "socials": [
+      { "icon": "fab fa-facebook", "link": "https://www.facebook.com/radoanrasel" },
+      { "icon": "fab fa-linkedin", "link": "https://www.linkedin.com/feed" },
+      { "icon": "fab fa-github", "link": "https://github.com/codingmaster0088-hub" }
+    ]
+  },
+  "skills": {
+    "aviation": [
+      "Load Control & Weight and Balance",
+      "ULD Management & Inventory Control",
+      "Flight Dispatch Coordination",
+      "Passenger Services & Airport Operations",
+      "Dangerous Goods & Aviation Security",
+      "Team Leadership & Administration",
+      "Incident Handling & Operational Compliance"
+    ],
+    "technology": [
+      "Full-stack web application development",
+      "Aviation operations software design",
+      "Staff roster management systems",
+      "Operational dashboards and reporting tools",
+      "UI/UX design and workflow automation",
+      "Personal portfolio and aviation technology projects"
+    ]
+  },
+  "experience": [
+    {
+      "period": "March 2014 – Present",
+      "role": "Senior Executive | Load Control Supervisor | Acting ULD In-Charge",
+      "company": "Us-Bangla Airlines",
+      "sections": [
         {
-            "title": "Main Portfolio Hub",
-            "desc": "My central hub for all coding experiments.",
-            "tech": "HTML/CSS",
-            "link": "https://codingmaster0088-hub.github.io",
-            "icon": "fas fa-code"
+          "title": "Key Responsibilities",
+          "items": [
+            "Supervise aircraft load control operations and ensure regulatory compliance.",
+            "Prepare and verify load sheets, trim sheets, weight & balance calculations.",
+            "Coordinate with ground handling, boarding gate, ramp and flight crew.",
+            "Manage passenger service operations, irregularities and service recovery.",
+            "Monitor flight documentation and operational reporting.",
+            "Lead and guide operational teams during peak operations."
+          ]
         },
         {
-            "title": "GitHub Repositories",
-            "desc": "Explore my source codes and contributions.",
-            "tech": "Git",
-            "link": "https://github.com/codingmaster0088-hub",
-            "icon": "fab fa-github"
+          "title": "ULD In-Charge Responsibilities",
+          "items": [
+            "Control ULD inventory, stock positioning and allocation.",
+            "Coordinate ULD movement between stations and vendors.",
+            "Monitor ULD serviceability and damage reporting.",
+            "Maintain ULD tracking records and reconciliation reports.",
+            "Ensure availability of AKE, PMC, PAG, PLA and other ULD equipment.",
+            "Liaise with cargo, ground handling and engineering departments.",
+            "Analyze shortages and arrange redistribution to support flight operations."
+          ]
         }
+      ],
+      "tags": ["Load Control", "ULD", "Aviation Safety", "Team Leadership"]
+    },
+    {
+      "period": "Sep 2011 – Feb 2014",
+      "role": "Executive Customer Support",
+      "company": "Saad Musa City Center",
+      "sections": [
+        {
+          "title": "Core Responsibilities",
+          "items": [
+            "Handled customer relations, service delivery, administration and complaint resolution."
+          ]
+        }
+      ],
+      "tags": ["Customer Support", "Administration", "Resolution"]
+    }
+  ],
+  "licenses": [
+    "Aircraft Load & Trim License (ATR, Boeing 737, Dash-8, Airbus A330)",
+    "Dangerous Goods Training",
+    "Aviation Security Training",
+    "Aircraft Load & Trim Training",
+    "Passenger facilitation",
+    "Airport operations overview",
+    "Passenger handling",
+    "Ground operations",
+    "Safety procedures"
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Law (LL.B)",
+      "major": "Law",
+      "institute": "City University",
+      "result": "CGPA 3.00",
+      "year": "2016",
+      "duration": "4 Years"
+    },
+    {
+      "degree": "Higher Secondary Certificate (HSC)",
+      "major": "Arts",
+      "institute": "Debigonj Degree College",
+      "result": "GPA 3.30",
+      "year": "2009",
+      "duration": "2 Years"
+    },
+    {
+      "degree": "Secondary School Certificate (SSC)",
+      "major": "Arts",
+      "institute": "Kalur Hat K.C High School",
+      "result": "GPA 3.81",
+      "year": "2007",
+      "duration": "2 Years"
+    }
+  ],
+  "projects": [
+    {
+      "title": "FLIGHT DATA UPDATE",
+      "desc": "Real-time updates, log-keeping, and streamlined flight information tracking.",
+      "tech": "Git/GitHub",
+      "link": "https://radoanrasel-usba.github.io/flight-data",
+      "image": "fas fa-plane-departure"
+    },
+    {
+      "title": "BOEING A/C TRIM",
+      "desc": "Aviation calculation simulator evaluating layout balances and trim envelopes.",
+      "tech": "Git/GitHub",
+      "link": "https://aviationbee.github.io/Boeing_trim",
+      "image": "fas fa-balance-scale"
+    },
+    {
+      "title": "AVIATION HERO",
+      "desc": "Resource center and educational portal dedicated to operational knowledge.",
+      "tech": "Git/GitHub",
+      "link": "https://codingmaster0088-hub.github.io/Aviation-Hero",
+      "image": "fas fa-cloud-sun"
+    },
+    {
+      "title": "ZERO FUEL WEIGHT CALCULATOR",
+      "desc": "Aircraft EZFW load distribution and performance planner tool.",
+      "tech": "Git/GitHub",
+      "link": "https://codingmaster0088-hub.github.io/EZFW-MAKER",
+      "image": "fas fa-calculator"
+    },
+    {
+      "title": "AVIATION ROSTER MAKER",
+      "desc": "Dynamic web-based crew scheduling interface built for mobile and desktop screens.",
+      "tech": "Git/GitHub",
+      "link": "https://codingmaster0088-hub.github.io/Roster-mobile-pc",
+      "image": "fas fa-calendar-alt"
+    }
+  ],
+  "personal": {
+    "languages": [
+      { "name": "Bangla", "fluency": "Fluent" },
+      { "name": "English", "fluency": "Professional" },
+      { "name": "Hindi", "fluency": "Conversational" }
+    ],
+    "details": [
+      { "label": "Birth Date", "value": "04 April 1992" },
+      { "label": "Height", "value": "5 feet 7 inches" },
+      { "label": "Marital Status", "value": "Married" },
+      { "label": "Nationality", "value": "Bangladeshi" }
     ]
+  }
 }
